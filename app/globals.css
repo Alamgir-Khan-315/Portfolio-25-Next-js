@@ -26,3 +26,26 @@ body {
 .Day_mode {
   @apply bg-gray-100 text-black;
 }
+
+.lg_title {
+  @apply text-4xl;
+}
+
+.lg_text {
+  @apply text-3xl;
+}
+
+.md_text {
+  @apply text-xl;
+}
+
+.outer_box {
+  @apply w-fit p-2 border-2 border-blue-500;
+}
+
+.btn_blue {
+  @apply w-fit p-2 px-3 rounded-full font-semibold text-white bg-blue-500 hover:bg-blue-600;
+}
+.btn_gray {
+  @apply w-fit p-2 px-3 rounded-full font-semibold border-2 border-gray-400 hover:bg-gray-400;
+}
